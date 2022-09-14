@@ -11,13 +11,5 @@ function toggleDesktopMenu(){
     // }
     desktopMenu.classList.toggle('inactive');   
 }
-console.log("Si se ejecuto JS")
 
 
-function toggleDesktopMenu(){
-    if(desktopMenu.classList.contains('inactive')){
-        desktopMenu.classList.remove('inactive');
-    }else{
-        desktopMenu.classList.add('inactive');
-    }  
-}
